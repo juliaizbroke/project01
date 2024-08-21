@@ -1,0 +1,10 @@
+.custom-table-container {
+    width: 50%;
+    max-height: 500px; /* Adjust as needed */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  .custom-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
