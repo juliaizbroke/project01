@@ -11,7 +11,10 @@ const router = createBrowserRouter([
     path: "/",
     element: <Dashboard />,
   },
-]);
+],
+{
+  basename : "/project01/car-analytics/",
+});
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
