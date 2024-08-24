@@ -1,0 +1,29 @@
+.car {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    margin-bottom: 15px; /* Space between car items */
+    border: 1px solid #ddd; /* Optional: border for better visibility */
+    padding: 10px; /* Optional: padding around the content */
+    border-radius: 5px; /* Optional: rounded corners */
+}
+
+.car img {
+    width: 200px; /* Set width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 15px; /* Space between image and text */
+}
+
+.car-details {
+    display: flex;
+    flex-direction: column; /* Stack text and button vertically */
+}
+
+.car-details p {
+    margin: 0; /* Remove default margin */
+    font-size: 16px; /* Adjust font size as needed */
+}
+
+.car-details button {
+    width: 200px;
+    margin-top: 10px; /* Space above button */
+}

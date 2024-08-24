@@ -4,13 +4,19 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css'; 
 import Dashboard from "./routes/dashboard";
+import HighlightedCars from "./routes/highlightedCars";
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Dashboard />,
   },
+  {
+    path: "/highlightedcars",
+    element: <HighlightedCars />,
+  }
 ],
 {
   basename : "/project01/car-analytics/",

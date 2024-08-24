@@ -1,11 +1,10 @@
 .custom-table-container {
-    width: 50%;
-    max-height: 700px; /* Adjust as needed */
-    overflow-y: auto; /* Enable vertical scrolling */
-  }
+  width: 50%;
+  max-height: 700px; 
+  overflow-y: auto; 
+}
   
-  .custom-table {
-    width: 100%;
-    border-collapse: collapse;
-    
-  }
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+}

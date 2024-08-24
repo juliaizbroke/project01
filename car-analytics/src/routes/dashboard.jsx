@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { Table, Container, Modal, Button } from 'react-bootstrap';
 import { Pie, Bar } from 'react-chartjs-2';
 import { Chart as ChartJS, ArcElement, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js';
-import carData from '../data/taladrod-cars.min.json'; // Adjust the path as necessary
+import NavigationTabs from './navigation.jsx';
+import carData from '../data/taladrod-cars.json';
 import '../styles/dashboard.css';
 
 ChartJS.register(ArcElement, Tooltip, Legend, BarElement, CategoryScale, LinearScale);
@@ -134,6 +135,7 @@ const Dashboard = () => {
 
   return (
     <Container>
+      <NavigationTabs />
       <h1 className="my-4">Car Inventory Dashboard</h1>
       <h6>Click on each of the car model for more details!</h6>
 
